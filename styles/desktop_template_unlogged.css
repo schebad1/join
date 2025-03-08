@@ -45,32 +45,8 @@
     color: #A8A8A8;
 }
 
-.add-task-img {
-    background-image: url(/assets/img/addTask.svg);
-    width: 25px;
-    height: 25px;
-}
-
-.add-task-img-chosen {
-    background-image: url(/assets/img/addTaskWhite.svg);
-    width: 25px;
-    height: 25px;
-}
-
-.summary-img-chosen {
-    background-image: url(/assets/img/summaryWhite.svg);
-    width: 26px;
-    height: 25px;
-}
-
-.summary-img {
-    background-image: url(/assets/img/summary.svg);
-    width: 26px;
-    height: 25px;
-}
-
 .log-in-img {
-    background-image: url(/assets/img/login.svg);
+    background-image: url(../assets/img/login.svg);
     width: 19.5px;
     height: 19.5px;
 }
@@ -84,30 +60,6 @@
     justify-content: center;
     height: 46px;
     cursor: pointer;
-}
-
-.board-img {
-    background-image: url(/assets/img/board.svg);
-    width: 30px;
-    height: 29.55px;
-}
-
-.board-img-chosen {
-    background-image: url(/assets/img/boardWhite.svg);
-    width: 30px;
-    height: 25.55px;
-}
-
-.contacts-img {
-    background-image: url(/assets/img/contacts.svg);
-    width: 26.5px;
-    height: 34px;
-}
-
-.contacts-img-chosen {
-    background-image: url(/assets/img/contactsWhite.svg);
-    width: 24.5px;
-    height: 26px;
 }
 
 .privacy-legal-section {
@@ -264,7 +216,7 @@ header span {
 }
 
 .join-img-mobile {
-    background-image: url(/assets/img/joinLogoMobile.svg);
+    background-image: url(../assets/img/joinLogoMobile.svg);
     width: auto;
     height: auto;
     display: none;
@@ -313,7 +265,7 @@ header span {
     }
 
     .join-img-mobile {
-        background-image: url(/assets/img/joinLogoMobile.svg);
+        background-image: url(../assets/img/joinLogoMobile.svg);
         width: 33px;
         height: 40px;
         left: 0;
@@ -360,54 +312,6 @@ header span {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .add-task-img {
-        background-image: url(/assets/img/addTaskMobile.svg);
-        width: 25px;
-        height: 25px;
-    }
-    
-    .add-task-img-chosen {
-        background-image: url(/assets/img/addTaskWhiteMobile.svg);
-        width: 25px;
-        height: 25px;
-    }
-    
-    .summary-img-chosen {
-        background-image: url(/assets/img/summaryWhiteMobile.svg);
-        width: 20px;
-        height: 20px;
-    }
-    
-    .summary-img {
-        background-image: url(/assets/img/summaryMobile.svg);
-        width: 20px;
-        height: 20px;
-    }
-    
-    .board-img {
-        background-image: url(/assets/img/boardMobile.svg);
-        width: 25px;
-        height: 20.55px;
-    }
-    
-    .board-img-chosen {
-        background-image: url(/assets/img/boardWhiteMobile.svg);
-        width: 25px;
-        height: 20.55px;
-    }
-    
-    .contacts-img {
-        background-image: url(/assets/img/contactsMobile.svg);
-        width: 21.5px;
-        height: 25px;
-    }
-    
-    .contacts-img-chosen {
-        background-image: url(/assets/img/contactsWhiteMobile.svg);
-        width: 21.5px;
-        height: 25px;
     }
 
     .join-logo {
@@ -521,54 +425,6 @@ header span {
         width: 100%;
         height: 46px;
         border-radius: 0;
-    }
-
-    .add-task-img {
-        background-image: url(/assets/img/addTask.svg);
-        width: 25px;
-        height: 25px;
-    }
-    
-    .add-task-img-chosen {
-        background-image: url(/assets/img/addTaskWhite.svg);
-        width: 25px;
-        height: 25px;
-    }
-    
-    .summary-img-chosen {
-        background-image: url(/assets/img/summaryWhite.svg);
-        width: 26px;
-        height: 25px;
-    }
-    
-    .summary-img {
-        background-image: url(/assets/img/summary.svg);
-        width: 26px;
-        height: 25px;
-    }
-    
-    .board-img {
-        background-image: url(/assets/img/board.svg);
-        width: 30px;
-        height: 29.55px;
-    }
-    
-    .board-img-chosen {
-        background-image: url(/assets/img/boardWhite.svg);
-        width: 30px;
-        height: 25.55px;
-    }
-    
-    .contacts-img {
-        background-image: url(/assets/img/contacts.svg);
-        width: 26.5px;
-        height: 34px;
-    }
-    
-    .contacts-img-chosen {
-        background-image: url(/assets/img/contactsWhite.svg);
-        width: 24.5px;
-        height: 26px;
     }
 
     .join-logo {
