@@ -119,3 +119,15 @@ function guestLogin() {
       console.error("Guest user not found in the database.");
   }
 }
+
+/**
+ * Updates the password visibility icon based on the current state of the password input.
+ * When the password field is non-empty, it sets the icon to "visibility_off" and attaches the togglePasswordVisibility click handler.
+ * If the password field is empty, it sets the icon to "lock" and removes any click event handler.
+ */
+function showClosedEyeImg() {
+  let input = document.getElementById('password');
+  let img = document.getElementById('passwordLockImg');
+  img.src = input.value ? "./assets/img/visibility_off.svg" : "./assets/img/lock.svg";
+  img.onclick = input.value ? togglePasswordVisibility : null;
+}
