@@ -137,22 +137,24 @@ function changeWindowToBoardSection() {
     window.location.href = "board.html";
 }
 
-
 /**
  * Decides whether to show the greeting overlay or not.
  * If 'wasGreeted' in localStorage is 'true', hide the overlay.
  * Otherwise, show it and set the flag.
  */
 function showGreetingOnce() {
+    const isMobile = window.innerWidth <= 1200; 
     const wasGreeted = localStorage.getItem('wasGreeted');
 
-    if (wasGreeted === 'true') {
-        // User was already greeted => hide overlay
-        hideGreetingOverlay();
+    if (isMobile) {
+        if (wasGreeted === 'true') {
+            hideGreetingOverlay(); 
+        } else {
+            showGreetingOverlay(); 
+            localStorage.setItem('wasGreeted', 'true');
+        }
     } else {
-        // User not greeted yet => show overlay and set flag
         showGreetingOverlay();
-        localStorage.setItem('wasGreeted', 'true');
     }
 }
 
